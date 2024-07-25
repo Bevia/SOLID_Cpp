@@ -1,0 +1,12 @@
+// Payment App UML Diagram
+digraph {
+	A [label=PaymentProcessor]
+	B [label=PaymentValidator]
+	C [label=TransactionLogger]
+	D [label=ConcretePaymentValidator]
+	E [label=ConsoleTransactionLogger]
+	A -> B [label=validates]
+	A -> C [label=logs]
+	D -> B [label=implements]
+	E -> C [label=implements]
+}

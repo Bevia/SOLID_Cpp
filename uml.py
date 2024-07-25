@@ -1,4 +1,9 @@
+#!/usr/bin/env python3
 from graphviz import Digraph
+
+# Add Graphviz to the PATH
+import os
+os.environ["PATH"] += os.pathsep + '/usr/local/bin'  # Adjust path as necessary
 
 # Create a new directed graph
 dot = Digraph(comment='Payment App UML Diagram')

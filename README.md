@@ -1,6 +1,7 @@
 ## How to run
 
-g++ -std=c++11 -o main main.cpp
+g++ -std=c++11 -o main main.cpp PaymentProcessor.cpp ConcretePaymentValidator.cpp ConsoleTransactionLogger.cpp
+
 ./main
 
 ### Running uml python file:

@@ -1,8 +1,14 @@
 ### Install Graph Viz
 
-pip install graphviz
+brew install graphviz
 
-#### What's going on here:
+#### install verification:
+dot -V
+
+#### Running uml python file:
+python3 uml.py
+
+### What's going on here:
 
 Here's what each part of the code does:
 
