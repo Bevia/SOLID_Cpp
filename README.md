@@ -8,7 +8,7 @@ g++ -std=c++11 -o main main.cpp PaymentProcessor.cpp ConcretePaymentValidator.cp
 python3 uml.py
 
 
-### Main SOLID program description
+### Main SOLID Payment Processor program description
 
 design a simple payment application in modern C++ with the SOLID principles in mind. This application will have basic functionality such as processing payments, validating payment methods, and logging transactions.
 Single Responsibility Principle (SRP)
