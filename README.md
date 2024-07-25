@@ -1,3 +1,5 @@
+## How to run
+
 design a simple payment application in modern C++ with the SOLID principles in mind. This application will have basic functionality such as processing payments, validating payment methods, and logging transactions.
 Single Responsibility Principle (SRP)
 
