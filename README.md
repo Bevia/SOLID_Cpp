@@ -1,5 +1,14 @@
 ## How to run
 
+g++ -std=c++11 -o main main.cpp
+./main
+
+### Running uml python file:
+python3 uml.py
+
+
+### Main SOLID program description
+
 design a simple payment application in modern C++ with the SOLID principles in mind. This application will have basic functionality such as processing payments, validating payment methods, and logging transactions.
 Single Responsibility Principle (SRP)
 
